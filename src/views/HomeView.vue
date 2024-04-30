@@ -63,11 +63,16 @@
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-7">
-            <h1 class="heading gsap-reveal-hero mb-3">
-              <strong
-                >Minimal<span class="text-primary">.</span> Portfolio</strong
-              >
-            </h1>
+            <div class="m-auto" style="width: 200px">
+              <img
+                src="../../public/assets/images/DSC09375_1.jpg"
+                alt="Foto Profil"
+                class="img-fluid rounded-circle shadow img-thumbnail mb-3 gsap-reveal-img"
+              />
+            </div>
+            <h3 class="text-black gsap-reveal-hero mb-3">
+              <strong>Abdul Rahman Jaelani</strong>
+            </h3>
             <h2 class="subheading gsap-reveal-hero mb-4">
               A minimal, clean, and AJAX driven free portfolio template created
               by the fine folks at <strong>Untree.co</strong>. Read our
@@ -104,22 +109,22 @@
         <div class="portfolio-wrapper">
           <div id="posts" class="row">
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
-                href="portfolio-single-1.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="1"
+                href="http://ourquran.epizy.com/"
+                target="_blank"
+                class="portfolio-item isotope-item gsap-reveal-img"
               >
                 <div class="overlay">
                   <span class="wrap-icon icon-link2"></span>
                   <div class="portfolio-item-content">
-                    <h3>Obsessed Book</h3>
+                    <h3>Aplikasi OurQur'an</h3>
                     <p>web, branding</p>
                   </div>
                 </div>
                 <img
-                  src="../../public/assets/images/img_1.jpg"
+                  src="../../public/assets/images/quran_12858591.png"
                   class="lazyload img-fluid"
                   alt="Images"
                 />
@@ -127,7 +132,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-2.html"
@@ -150,7 +155,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -173,7 +178,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -196,7 +201,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -219,7 +224,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-1.html"
@@ -242,7 +247,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-2.html"
@@ -265,7 +270,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -288,7 +293,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -311,7 +316,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -334,7 +339,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -357,7 +362,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -380,7 +385,7 @@
             </div>
 
             <div
-              class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
             >
               <a
                 href="portfolio-single-3.html"
@@ -496,12 +501,12 @@
         </div>
 
         <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"
                   ><img
-                    src="../../public/assets/images/svg/service-icon-7.svg"
+                    src="../../public/assets/images/quran_12858591.png"
                     alt="Image"
                     class="img-fluid"
                 /></span>
@@ -513,7 +518,7 @@
               </p>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"
@@ -531,7 +536,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"
@@ -549,7 +554,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"
@@ -567,7 +572,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"
@@ -585,7 +590,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"
