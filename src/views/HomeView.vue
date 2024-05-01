@@ -4,7 +4,7 @@
       <div class="row py-3">
         <div class="col-3">
           <img
-            src="../../public/assets/images/profile/user-1.jpg"
+            src="../../public/assets/images/profile/DSC09375_1.jpg"
             class="img-fluid rounded-circle"
             alt=""
           />
