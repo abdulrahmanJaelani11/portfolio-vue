@@ -1,612 +1,70 @@
 <template>
   <div class="home">
-    <div class="lines-wrap">
-      <div class="lines-inner">
-        <div class="lines"></div>
-      </div>
-    </div>
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close">
-          <span class="icofont-close js-menu-toggle"></span>
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-3">
+          <img
+            src="../../public/assets/images/profile/user-1.jpg"
+            class="img-fluid rounded-circle"
+            alt=""
+          />
+        </div>
+        <div class="col-9 text-start d-flex align-items-center">
+          <div>
+            <h3 class="fw-semibold mb-1">Abdul Rahman Jaelani</h3>
+            <span class="d-block">Mahasiswa | Fullstack Web Developer</span>
+          </div>
+        </div>
+        <div class="col-12">
+          <hr class="m-0 mt-2 pb-0" />
         </div>
       </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
 
-    <nav class="site-nav dark mb-5 site-navbar-target">
-      <div class="container">
-        <div class="site-navigation">
-          <a href="index.html" class="logo m-0"
-            >Minimal<span class="text-primary">.</span></a
-          >
-
-          <ul
-            class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap"
-          >
-            <li><a href="#home-section" class="nav-link active">Home</a></li>
-            <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-            <li class="has-children">
-              <a href="#about-section" class="nav-link">About</a>
-              <ul class="dropdown">
-                <li><a href="elements.html" class="nav-link">Elements</a></li>
-                <li class="has-children">
-                  <a href="#">Menu Two</a>
-                  <ul class="dropdown">
-                    <li><a href="#" class="nav-link">Sub Menu One</a></li>
-                    <li><a href="#" class="nav-link">Sub Menu Two</a></li>
-                    <li><a href="#" class="nav-link">Sub Menu Three</a></li>
-                  </ul>
-                </li>
-                <li><a href="#" class="nav-link">Menu Three</a></li>
-              </ul>
-            </li>
-            <li><a href="#services-section" class="nav-link">Services</a></li>
-
-            <li><a href="#contact-section" class="nav-link">Contact us</a></li>
-          </ul>
-
+      <div class="row">
+        <div class="col-12">
+          <h4><i class="fa-solid fa-bars-staggered"></i> My Projects</h4>
+        </div>
+        <div class="col-12 mt-3 d-flex justify-content-around">
           <a
-            href="#"
-            class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block"
-            data-toggle="collapse"
-            data-target="#main-navbar"
+            href="http://ourquran.epizy.com/"
+            target="_blank"
+            class="text-dark icon"
           >
-            <span></span>
+            <div>
+              <i class="p-4 fs-7 rounded shadow fa-solid fa-book-open"></i>
+            </div>
+            <small>OurQuran</small>
           </a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="untree_co-section pb-0" id="home-section">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-md-7">
-            <div class="m-auto" style="width: 200px">
-              <img
-                src="../../public/assets/images/DSC09375_1.jpg"
-                alt="Foto Profil"
-                class="img-fluid rounded-circle shadow img-thumbnail mb-3 gsap-reveal-img"
-              />
+          <a
+            href="http://bayarkas.vercel.app"
+            target="_blank"
+            class="text-dark icon"
+          >
+            <div>
+              <i class="p-4 fs-7 rounded shadow fa-solid fa-wallet"></i>
             </div>
-            <h3 class="text-black gsap-reveal-hero mb-3">
-              <strong>Abdul Rahman Jaelani</strong>
-            </h3>
-            <h2 class="subheading gsap-reveal-hero mb-4">
-              A minimal, clean, and AJAX driven free portfolio template created
-              by the fine folks at <strong>Untree.co</strong>. Read our
-              <a href="https://untree.co/license" target="_blank"
-                >template license</a
-              >
-              here.
-            </h2>
-            <p class="gsap-reveal-hero">
-              <a
-                href="https://untree.co/"
-                target="_blank"
-                class="btn btn-outline-black"
-                >More free templates here</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="untree_co-section untree_co-section-4 pb-0"
-      id="portfolio-section"
-    >
-      <div class="container">
-        <div class="relative">
-          <div class="loader-portfolio-wrap">
-            <div class="loader-portfolio"></div>
-          </div>
-        </div>
-        <div id="portfolio-single-holder"></div>
-
-        <div class="portfolio-wrapper">
-          <div id="posts" class="row">
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="http://ourquran.epizy.com/"
-                target="_blank"
-                class="portfolio-item isotope-item gsap-reveal-img"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Aplikasi OurQur'an</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/quran_12858591.png"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
+            <small>Bayar Kas</small>
+          </a>
+          <a
+            href="https://abdulrahmanjaelani11.github.io/"
+            target="_blank"
+            class="text-dark icon"
+          >
+            <div>
+              <i class="p-4 fs-7 rounded shadow fa-solid fa-address-card"></i>
             </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-2.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="2"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Book Binding</h3>
-                    <p>illustration, application</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_2.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
+            <small>Portfolio</small>
+          </a>
+          <a
+            href="https://unduh-video.netlify.app/"
+            target="_blank"
+            class="text-dark icon"
+          >
+            <div>
+              <i class="p-4 fs-7 rounded shadow fa-solid fa-circle-down"></i>
             </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Fresh Fruits</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_3.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Powerful Speaker</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_4.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Wireless Headset</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_5.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-1.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="1"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Black & White Cubic</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_6.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-2.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="2"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Nike Shoe</h3>
-                    <p>illustration, application</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_7.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Old Typewriter</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_8.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Walking Man</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_9.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Progress Journal</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_10.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>The Dog</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_11.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Beautiful Woman</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_12.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-
-            <div
-              class="item web branding col-sm-6 col-md-6 col-lg-3 isotope-mb-2"
-            >
-              <a
-                href="portfolio-single-3.html"
-                class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                data-id="3"
-              >
-                <div class="overlay">
-                  <span class="wrap-icon icon-link2"></span>
-                  <div class="portfolio-item-content">
-                    <h3>Book Binding</h3>
-                    <p>web, branding</p>
-                  </div>
-                </div>
-                <img
-                  src="../../public/assets/images/img_2.jpg"
-                  class="lazyload img-fluid"
-                  alt="Images"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- </div>
-        </div> -->
-      </div>
-    </div>
-
-    <div class="untree_co-section pb-0" id="about-section">
-      <div class="container">
-        <div class="row justify-content-center mb-3">
-          <div class="col-lg-7 mx-auto text-center author-wrap">
-            <img
-              src="../../public/assets/images/person_1.jpg"
-              alt="Image"
-              class="img-fluid rounded-circle mb-3"
-            />
-            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">
-              James Williardson
-            </h3>
-            <p class="gsap-reveal-hero">Product Designer and Developer</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <p class="gsap-reveal-hero">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
-            </p>
-
-            <p class="gsap-reveal-hero">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts of sentences fly into your mouth.
-            </p>
-
-            <p class="gsap-reveal-hero">
-              Even the all-powerful Pointing has no control about the blind
-              texts it is an almost unorthographic life One day however a small
-              line of blind text by the name of Lorem Ipsum decided to leave for
-              the far World of Grammar.
-            </p>
-
-            <p class="gsap-reveal-hero">
-              The Big Oxmox advised her not to do so, because there were
-              thousands of bad Commas, wild Question Marks and devious Semikoli,
-              but the Little Blind Text didn’t listen. She packed her seven
-              versalia, put her initial into the belt and made herself on the
-              way.
-            </p>
-
-            <p class="gsap-reveal-hero mb-5">
-              When she reached the first hills of the Italic Mountains, she had
-              a last view back on the skyline of her hometown Bookmarksgrove,
-              the headline of Alphabet Village and the subline of her own road,
-              the Line Lane. Pityful a rethoric question ran over her cheek,
-              then she continued her way.
-            </p>
-
-            <p class="gsap-reveal-hero text-center">
-              <a
-                href="https://untree.co/"
-                target="_blank"
-                class="btn btn-outline-black"
-                >Hire Me at Untree.co</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="untree_co-section pb-0" id="services-section">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0">
-              <strong>Services</strong>
-            </h2>
-            <p class="gsap-reveal-hero">
-              The Big Oxmox advised her not to do so, because there were
-              thousands of bad Commas.
-            </p>
-            <div class="wave gsap-reveal-hero">
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"
-                  ><img
-                    src="../../public/assets/images/quran_12858591.png"
-                    alt="Image"
-                    class="img-fluid"
-                /></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Marketing</h3>
-              <p class="gsap-reveal-hero">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"
-                  ><img
-                    src="../../public/assets/images/svg/service-icon-6.svg"
-                    alt="Image"
-                    class="img-fluid"
-                /></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Photography</h3>
-              <p class="gsap-reveal-hero">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"
-                  ><img
-                    src="../../public/assets/images/svg/service-icon-1.svg"
-                    alt="Image"
-                    class="img-fluid"
-                /></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Web Design</h3>
-              <p class="gsap-reveal-hero">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"
-                  ><img
-                    src="../../public/assets/images/svg/service-icon-8.svg"
-                    alt="Image"
-                    class="img-fluid"
-                /></span>
-              </div>
-              <h3 class="gsap-reveal-hero">App Development</h3>
-              <p class="gsap-reveal-hero">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"
-                  ><img
-                    src="../../public/assets/images/svg/service-icon-4.svg"
-                    alt="Image"
-                    class="img-fluid"
-                /></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Search Ranking</h3>
-              <p class="gsap-reveal-hero">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"
-                  ><img
-                    src="../../public/assets/images/svg/service-icon-5.svg"
-                    alt="Image"
-                    class="img-fluid"
-                /></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Branding</h3>
-              <p class="gsap-reveal-hero">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-            </div>
-          </div>
+            <small>Unduh video</small>
+          </a>
         </div>
       </div>
     </div>
