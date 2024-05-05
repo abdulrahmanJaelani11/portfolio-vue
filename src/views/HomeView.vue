@@ -65,6 +65,16 @@
             </div>
             <small>Unduh video</small>
           </a>
+          <a
+            href="https://cekongkir.vercel.app/"
+            target="_blank"
+            class="text-dark icon"
+          >
+            <div>
+              <i class="p-4 fs-7 rounded shadow fa-solid fa-truck-fast"></i>
+            </div>
+            <small>Cek Ongkir</small>
+          </a>
         </div>
       </div>
     </div>
